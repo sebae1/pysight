@@ -10,7 +10,7 @@
     - (Optional) NI-VISA
 - 코딩
     - Python 3.11
-    - `requiremnts.txt` 참조
+    - `requirements.txt` 참조
 
 ## 패키징 하기
 - 소스 코드 수정 후 실행 파일로 만들고자 하면 아래와 같이 하세요. 

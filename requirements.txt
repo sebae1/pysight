@@ -1,0 +1,13 @@
+matplotlib==3.10.3
+numpy==2.2.6
+pillow==11.2.1
+pyinstaller==6.13.0
+pyinstaller-hooks-contrib==2025.4
+pyusb==1.3.1
+PyVISA==1.15.0
+PyVISA-py==0.8.0
+pywin32-ctypes==0.2.3
+requests==2.32.3
+scipy==1.15.3
+urllib3==2.4.0
+wxPython==4.2.3

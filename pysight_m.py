@@ -574,8 +574,9 @@ class PySight(wx.Frame):
             self.DataRefresh()
             self.rm = pyvisa.ResourceManager()
             self.MSO_X3104A = self.rm.open_resource(self.txtctrlAddress.GetValue())
+            self.MSO_X3104A.timeout = 20_000
             self.MSO_X3104A.write(':ACQuire:MODE %s' % 'RTIMe')
-            self.MSO_X3104A.write(':ACQuire:TYPE %s' % 'NORMal')            
+            self.MSO_X3104A.write(':ACQuire:TYPE %s' % 'NORMal')
 
             if self.checkboxLive.GetValue() == True: # Live Mode
                 i = 0

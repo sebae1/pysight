@@ -10,7 +10,7 @@ class AboutDialog(wx.Dialog):
         img = wx.Image(str(pathlib.Path(__file__).parent)+'\icons\PySight.ico', type=wx.BITMAP_TYPE_ICO)
         img.Rescale(70,70)
         img = img.ConvertToBitmap()
-        subject = 'PySight 4.02'
+        subject = 'PySight 4.03'
         description = '''This program is designed to monitor and acquire data from Keysight MSO-X 3104A oscilloscope. You may need \'Keysight Connection Expert\' to locate the VISA address of it. The program can perform real-time post-processing from the panel on the right.'''
         signature = '2019, Sangeun Bae'
 
